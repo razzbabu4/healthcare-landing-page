@@ -1,5 +1,6 @@
 import React from 'react';
 import darkLogo from '../../assets/logo dark.png'
+import { FiArrowUpRight } from 'react-icons/fi';
 
 const NavBar = () => {
     const navLinks = <>
@@ -40,7 +41,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='border border-[#343268] rounded-lg py-2 px-4'>Appointment</button>
+                <button className='border border-[#343268] rounded-lg py-2 px-4 flex items-center gap-2'>Appointment <FiArrowUpRight /></button>
             </div>
         </div>
     );
