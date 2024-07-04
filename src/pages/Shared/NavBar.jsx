@@ -41,7 +41,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='border border-[#343268] rounded-lg py-2 px-4 flex items-center gap-2'>Appointment <FiArrowUpRight /></button>
+                <button className='btn border border-[#343268] rounded-lg py-2 px-4 flex items-center gap-2'>Appointment <FiArrowUpRight /></button>
             </div>
         </div>
     );

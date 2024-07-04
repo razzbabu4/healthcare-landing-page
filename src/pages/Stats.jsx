@@ -8,10 +8,9 @@ import { CiStar } from 'react-icons/ci';
 
 const Stats = () => {
     return (
-        <div>
-            <div className='lg:relative my-16'>
-                <h2 className='text-center text-3xl lg:text-5xl font-semibold lg:w-2/4 mx-auto mb-6'>Comprehensive Care for Every Patient</h2>
-                <div className='flex flex-col lg:flex-row gap-5 items-end lg:absolute top-0 pb-10'>
+            <div>
+                <h1 className='text-center text-3xl lg:text-5xl font-semibold lg:w-1/2 mx-auto mb-8 lg:mb-0'>Comprehensive Care for Every Patient</h1>
+                <div className='flex flex-col lg:flex-row gap-5 items-end lg:transform lg:-translate-y-20'>
                     <div className='h-80 flex flex-col p-5 gap-5 border rounded-xl w-full'>
                         <h2 className='text-3xl lg:text-4xl font-semibold text-[#020043]'>90%</h2>
                         <p className=''>Patient satisfaction rate, reflecting our commitment.</p>
@@ -34,12 +33,11 @@ const Stats = () => {
                     </div>
                     <div className='h-80 w-full flex flex-col p-5 gap-5 border rounded-xl '>
                         <h2 className='text-3xl lg:text-4xl font-semibold text-[#020043]'>50+</h2>
-                        <p>Free lession video for patient</p>
+                        <p>Free lesson video for patient</p>
                         <img className='h-32 w-32 mt-4 mx-auto' src={video} alt="" />
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 

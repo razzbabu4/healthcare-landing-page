@@ -3,7 +3,7 @@ import banner from '../assets/Rectangle 5.png';
 
 const Banner = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-12 mb-20'>
             <img className='h-full w-full' src={banner} alt="banner" />
         </div>
     );
